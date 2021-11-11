@@ -66,12 +66,10 @@ Add these permissons
 
 >click on the `gradle settngs` , it will redirect you to the jdk location where you'll be able to see the JDK version and also you can change the version from there.
 
-#IOS
+# IOS
 #### In the `AppDelegate.m` file
 
 ###### Add the following
-
-
 
 
     @import GoogleMaps;
@@ -84,7 +82,7 @@ Add these permissons
     		...
     	}
 
-# `cd ios and pod install`
+##### `cd ios and pod install`
 
 #### Usage
 ###### In the ` <Pimap>`  component passing region is necessary along with the style containing height and width.
