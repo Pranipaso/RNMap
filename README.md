@@ -30,7 +30,7 @@ Add the dependency
 
 ##### In `Manifest` file
 
-Add before the `activity` tag
+Add <meta-data ...> before the `activity` tag
 
     <Manifest>
     <Application
@@ -39,8 +39,8 @@ Add before the `activity` tag
     	....
 		>
 		 <meta-data
-							android:name="com.google.android.geo.API_KEY"
-							android:value=“api_key_generated” />
+			android:name="com.google.android.geo.API_KEY"
+			android:value=“api_key_generated” />
 		<Activity>
 			......
 		</Activity>
@@ -56,9 +56,9 @@ Add these permissons
 
 >change the gradle version to 7.0.2
 
-####Make sure you have JDK version 11 or greater in your app
+#### Make sure you have JDK version 11 or greater in your app
 
-######If you don't know the java version then,
+###### If you don't know the java version then,
 
 >Select `Project Structure` from file menu -> then select `SDK Location` menu
 
@@ -67,7 +67,7 @@ Add these permissons
 >click on the `gradle settngs` , it will redirect you to the jdk location where you'll be able to see the JDK version and also you can change the version from there.
 
 #IOS
-####In the `AppDelegate.m` file
+#### In the `AppDelegate.m` file
 
 ###### Add the following
 
